@@ -1,290 +1,332 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sopa de Letras</title>
+	<meta charset="utf-8">
+	<title>Mexican word soup</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<h1><i>Juega la sopa de Letras</i> </h1>
-		<h3>Palabras a encontrar:</h3>
-			<ul>
-				<li>MEXICO</li>
-				<li>CATRINA</li>
-				<li>TEQUILA</li>
-				<li>MAIZ</li>
-				<li>NOPAL</li>
-				<li>POPOCATEPETL</li>
-				<li>CHILE</li>
-				<li>QUETZALCOATL</li>
-				<li>TACOS</li>
-				<li>ALEBRIJES</li>
-				<li>PAPANTLA</li>
-				<li>ANGEL</li>
-				<li>TORITOS</li>
-				<li>MOLCAJETE</li>
-				<li>MOLE</li>
-			</ul>
-	<form id= "espacio">
-		<table>
-			<tr>
-				<th>Z</th>
-				<th>G</th>
-				<th>Y</th>
-				<th>U</th>
-				<th>R</th>
-				<th>Y</th>
-				<th class="letra mexico">M</th>
-				<th class="letra mexico">E</th>
-				<th class="letra mexico">X</th>
-				<th class="letra mexico">I</th>
-				<th class="letra mexico">C</th>
-				<th class="letra mexico">O</th>
-				<th>T</th>
-				<th>I</th>
-				<th>U</th>
-			</tr>
-			<tr>
-				<th>I</th>
-				<th>K</th>
-				<th>M</th>
-				<th>N</th>
-				<th>T</th>
-				<th>S</th>
-				<th>O</th>
-				<th>K</th>
-				<th>A</th>
-				<th>Z</th>
-				<th class="letra">H</th>
-				<th>C</th>
-				<th>L</th>
-				<th>Y</th>
-				<th>I</th>
-			</tr>
-			<tr>
-				<th class="letra">A</th>
-				<th>Q</th>
-				<th>N</th>
-				<th>S</th>
-				<th>T</th>
-				<th>P</th>
-				<th>E</th>
-				<th>J</th>
-				<th>E</th>
-				<th>C</th>
-				<th class="letra">I</th>
-				<th>O</th>
-				<th>R</th>
-				<th class="letra">Q</th>
-				<th>R</th>
-			</tr>
-			<tr>
-				<th>W</th>
-				<th class="letra">N</th>
-				<th>Y</th>
-				<th>A</th>
-				<th>E</th>
-				<th>Z</th>
-				<th>S</th>
-				<th>G</th>
-				<th>I</th>
-				<th>T</th>
-				<th class="letra">L</th>
-				<th>A</th>
-				<th>B</th>
-				<th class="letra">U</th>
-				<th>I</th>
-			</tr>
-			<tr>
-				<th>Z</th>
-				<th>J</th>
-				<th class="letra">G</th>
-				<th>A</th>
-				<th>L</th>
-				<th>N</th>
-				<th>A</th>
-				<th>N</th>
-				<th>S</th>
-				<th>T</th>
-				<th class="letra">E</th>
-				<th>U</th>
-				<th>T</th>
-				<th class="letra">E</th>
-				<th>U</th>
-			</tr>
-			<tr>
-				<th>B</th>
-				<th>R</th>
-				<th>U</th>
-				<th class="letra">E</th>
-				<th>I</th>
-				<th>T</th>
-				<th>J</th>
-				<th>P</th>
-				<th>Q</th>
-				<th class="letra">S</th>
-				<th class="letra">O</th>
-				<th class="letra">C</th>
-				<th class="letra">A</th>
-				<th class="letra">T</th>
-				<th>R</th>
-			</tr>
-			<tr>
-				<th class="letra">C</th>
-				<th>D</th>
-				<th>L</th>
-				<th>S</th>
-				<th class="letra">L</th>
-				<th>J</th>
-				<th>A</th>
-				<th>I</th>
-				<th>Y</th>
-				<th>W</th>
-				<th>N</th>
-				<th>T</th>
-				<th>V</th>
-				<th class="letra">Z</th>
-				<th>O</th>
-			</tr>
-			<tr>
-				<th>P</th>
-				<th class="letra">A</th>
-				<th class="letra">L</th>
-				<th class="letra">E</th>
-				<th class="letra">B</th>
-				<th class="letra">R</th>
-				<th class="letra">I</th>
-				<th class="letra">J</th>
-				<th class="letra">E</th>
-				<th class="letra">S</th>
-				<th>I</th>
-				<th>M</th>
-				<th>R</th>
-				<th class="letra">A</th>
-				<th>K</th>
-			</tr>
-			<tr>
-				<th>X</th>
-				<th class="letra">L</th>
-				<th class="letra">T</th>
-				<th class="letra">E</th>
-				<th class="letra">Q</th>
-				<th class="letra">U</th>
-				<th class="letra">I</th>
-				<th class="letra">L</th>
-				<th class="letra">A</th>
-				<th>N</th>
-				<th>O</th>
-				<th class="letra">S</th>
-				<th>N</th>
-				<th class="letra">L</th>
-				<th>T</th>
-			</tr>
-			<tr>
-				<th>W</th>
-				<th class="letra">T</th>
-				<th>H</th>
-				<th class="letra">R</th>
-				<th>Z</th>
-				<th>E</th>
-				<th>S</th>
-				<th>N</th>
-				<th>H</th>
-				<th>D</th>
-				<th>P</th>
-				<th class="letra">O</th>
-				<th>Z</th>
-				<th class="letra">C</th>
-				<th>O</th>
-			</tr>
-			<tr>
-				<th>I</th>
-				<th class="letra">N</th>
-				<th>G</th>
-				<th>U</th>
-				<th class="letra">I</th>
-				<th>Q</th>
-				<th>W</th>
-				<th>K</th>
-				<th>L</th>
-				<th>J</th>
-				<th>S</th>
-				<th class="letra">T</th>
-				<th>R</th>
-				<th class="letra">O</th>
-				<th>S</th>
-			</tr>
-			<tr>
-				<th>H</th>
-				<th class="letra">A</th>
-				<th>J</th>
-				<th>W</th>
-				<th>X</th>
-				<th class="letra">N</th>
-				<th class="letra">O</th>
-				<th class="letra">P</th>
-				<th class="letra">A</th>
-				<th class="letra">L</th>
-				<th>B</th>
-				<th class="letra">I</th>
-				<th>C</th>
-				<th class="letra">A</th>
-				<th>W</th>
-			</tr>
-			<tr>
-				<th>A</th>
-				<th class="letra">P</th>
-				<th>N</th>
-				<th>M</th>
-				<th>Y</th>
-				<th class="letra">M</th>
-				<th class="letra">A</th>
-				<th class="letra">I</th>
-				<th class="letra">Z</th>
-				<th>E</th>
-				<th>Z</th>
-				<th class="letra">R</th>
-				<th>O</th>
-				<th class="letra">L</th>
-				<th>S</th>
-			</tr>
-			<tr>
-				<th>R</th>
-				<th class="letra">A</th>
-				<th class="letra">M</th>
-				<th class="letra">O</th>
-				<th class="letra">L</th>
-				<th class="letra">C</th>
-				<th class="letra">A</th>
-				<th class="letra">J</th>
-				<th class="letra">E</th>
-				<th class="letra">T</th>
-				<th class="letra">E</th>
-				<th class="letra">O</th>
-				<th>I</th>
-				<th class="letra">T</th>
-				<th>G</th>
-			</tr>
-			<tr>
-				<th>B</th>
-				<th class="letra">P</th>
-				<th class="letra">O</th>
-				<th class="letra">P</th>
-				<th class="letra">O</th>
-				<th class="letra">C</th>
-				<th class="letra">A</th>
-				<th class="letra">T</th>
-				<th class="letra">E</th>
-				<th class="letra">P</th>
-				<th class="letra">E</th>
-				<th class="letra">T</th>
-				<th class="letra">L</th>
-				<th>S</th>
-				<th>P</th>
-			</tr>
-		</table>
-	</form>
+	<!-- header -->
+	<header class="contenedor navegador">
+      <nav class="row">
+        <section class="col-12 centrar">
+          <img src="assets/images/mexico.png" alt="mexico">
+        </section>
+      </nav>
+    </header>
+		<!-- contenedor general -->
+		<section class="contenedor fondo">
+
+		<!-- instrucciones -->
+	<section class="contenedor">
+		<section class="row centrar">
+			<section class="col-12">
+				<p class="palabras fondo-texto">
+					Hello <a href="https://giphy.com/gifs/animation-children-plants-l2R0fxIz8J7XjnDt6/fullscreen">escuincles</a>! ("kids") This game was made to show you
+					many different things about Mexican culture. Firstly, you have to figure out
+					the word soup then you should click on the word to find out more about its meaning.
+					We hope you will have fun and get a good impression about this beautiful country!
+				</p>
+			</section>
+		</section>
+		<section class="contenedor">
+			<section class="row">
+				<section class="col-2">
+				</section>
+				<section class="col-6 centrar">
+					<form id= "espacio">
+						<table class="fondo-texto">
+							<tr>
+								<th>Z</th>
+								<th>G</th>
+								<th>Y</th>
+								<th>U</th>
+								<th>R</th>
+								<th>Y</th>
+								<th>M</th>
+								<th>E</th>
+								<th>X</th>
+								<th>I</th>
+								<th>C</th>
+								<th>O</th>
+								<th>T</th>
+								<th>I</th>
+								<th>U</th>
+							</tr>
+							<tr>
+								<th>I</th>
+								<th>K</th>
+								<th>M</th>
+								<th>N</th>
+								<th>T</th>
+								<th>S</th>
+								<th>O</th>
+								<th>K</th>
+								<th>A</th>
+								<th>Z</th>
+								<th>H</th>
+								<th>C</th>
+								<th>L</th>
+								<th>Y</th>
+								<th>I</th>
+							</tr>
+							<tr>
+								<th>A</th>
+								<th>Q</th>
+								<th>N</th>
+								<th>S</th>
+								<th>T</th>
+								<th>P</th>
+								<th>E</th>
+								<th>J</th>
+								<th>E</th>
+								<th>C</th>
+								<th>I</th>
+								<th>O</th>
+								<th>R</th>
+								<th>Q</th>
+								<th>R</th>
+							</tr>
+							<tr>
+								<th>W</th>
+								<th>N</th>
+								<th>Y</th>
+								<th>A</th>
+								<th>E</th>
+								<th>Z</th>
+								<th>S</th>
+								<th>G</th>
+								<th>I</th>
+								<th>T</th>
+								<th>L</th>
+								<th>A</th>
+								<th>B</th>
+								<th>U</th>
+								<th>I</th>
+							</tr>
+							<tr>
+								<th>Z</th>
+								<th>J</th>
+								<th>G</th>
+								<th>A</th>
+								<th>L</th>
+								<th>N</th>
+								<th>A</th>
+								<th>N</th>
+								<th>S</th>
+								<th>T</th>
+								<th>E</th>
+								<th>U</th>
+								<th>T</th>
+								<th>E</th>
+								<th>U</th>
+							</tr>
+							<tr>
+								<th>B</th>
+								<th>R</th>
+								<th>U</th>
+								<th>E</th>
+								<th>I</th>
+								<th>T</th>
+								<th>J</th>
+								<th>P</th>
+								<th>Q</th>
+								<th>S</th>
+								<th>O</th>
+								<th>C</th>
+								<th>A</th>
+								<th>T</th>
+								<th>R</th>
+							</tr>
+							<tr>
+								<th>C</th>
+								<th>D</th>
+								<th>L</th>
+								<th>S</th>
+								<th>L</th>
+								<th>J</th>
+								<th>A</th>
+								<th>I</th>
+								<th>Y</th>
+								<th>W</th>
+								<th>N</th>
+								<th>T</th>
+								<th>V</th>
+								<th>Z</th>
+								<th>O</th>
+							</tr>
+							<tr>
+								<th>P</th>
+								<th>A</th>
+								<th>L</th>
+								<th>E</th>
+								<th>B</th>
+								<th>R</th>
+								<th>I</th>
+								<th>J</th>
+								<th>E</th>
+								<th>S</th>
+								<th>I</th>
+								<th>M</th>
+								<th>R</th>
+								<th>A</th>
+								<th>K</th>
+							</tr>
+							<tr>
+								<th>X</th>
+								<th>L</th>
+								<th>T</th>
+								<th>E</th>
+								<th>Q</th>
+								<th>U</th>
+								<th>I</th>
+								<th>L</th>
+								<th>A</th>
+								<th>N</th>
+								<th>O</th>
+								<th>S</th>
+								<th>N</th>
+								<th>L</th>
+								<th>T</th>
+							</tr>
+							<tr>
+								<th>W</th>
+								<th>T</th>
+								<th>H</th>
+								<th>R</th>
+								<th>Z</th>
+								<th>E</th>
+								<th>S</th>
+								<th>N</th>
+								<th>H</th>
+								<th>D</th>
+								<th>P</th>
+								<th>O</th>
+								<th>Z</th>
+								<th>C</th>
+								<th>O</th>
+							</tr>
+							<tr>
+								<th>I</th>
+								<th>N</th>
+								<th>G</th>
+								<th>U</th>
+								<th>I</th>
+								<th>Q</th>
+								<th>W</th>
+								<th>K</th>
+								<th>L</th>
+								<th>J</th>
+								<th>S</th>
+								<th>T</th>
+								<th>R</th>
+								<th>O</th>
+								<th>S</th>
+							</tr>
+							<tr>
+								<th>H</th>
+								<th>A</th>
+								<th>J</th>
+								<th>W</th>
+								<th>X</th>
+								<th>N</th>
+								<th>O</th>
+								<th>P</th>
+								<th>A</th>
+								<th>L</th>
+								<th>B</th>
+								<th>I</th>
+								<th>C</th>
+								<th>A</th>
+								<th>W</th>
+							</tr>
+							<tr>
+								<th>A</th>
+								<th>P</th>
+								<th>N</th>
+								<th>M</th>
+								<th>Y</th>
+								<th>M</th>
+								<th>A</th>
+								<th>I</th>
+								<th>Z</th>
+								<th>E</th>
+								<th>Z</th>
+								<th>R</th>
+								<th>O</th>
+								<th>L</th>
+								<th>S</th>
+							</tr>
+							<tr>
+								<th>R</th>
+								<th>A</th>
+								<th>M</th>
+								<th>O</th>
+								<th>L</th>
+								<th>C</th>
+								<th>A</th>
+								<th>J</th>
+								<th>E</th>
+								<th>T</th>
+								<th>E</th>
+								<th>O</th>
+								<th>I</th>
+								<th>T</th>
+								<th>G</th>
+							</tr>
+							<tr>
+								<th>B</th>
+								<th>P</th>
+								<th>O</th>
+								<th>P</th>
+								<th>O</th>
+								<th>C</th>
+								<th>A</th>
+								<th>T</th>
+								<th>E</th>
+								<th>P</th>
+								<th>E</th>
+								<th>T</th>
+								<th>L</th>
+								<th>S</th>
+								<th>P</th>
+							</tr>
+						</table>
+					</form>
+				</section>
+
+				<section class="col-2 fondo-texto">
+					<h3>Words to find:</h3>
+					<ul>
+						<li>MEXICO</li>
+						<li>CATRINA</li>
+						<li>TEQUILA</li>
+						<li>NOPAL</li>
+						<li>MAIZ</li>
+						<li>POPOCATEPETL</li>
+						<li>CHILE</li>
+						<li>QUETZALCOATL</li>
+						<li>TACOS</li>
+						<li>ALEBRIJES</li>
+						<li>PAPANTLA</li>
+						<li>ANGEL</li>
+						<li>TORITOS</li>
+						<li>MOLCAJETE</li>
+						<li>MOLE</li>
+					</ul>
+				</section>
+			</section>
+		</section>
+</section>
+
 	<br>
-	<FOOTER><i>@bravoSquad<i></FOOTER>
+	<footer>
+		<i>
+			@bravoSquad
+		<i>
+	</footer>
 	<script src="./js/app.js"></script>
 </body>
 </html>

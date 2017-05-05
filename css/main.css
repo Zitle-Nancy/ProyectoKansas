@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One|Josefin+Sans');
+/*estilos generales*/
+body{
+  padding: 0 auto;
+  margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#1D1F20;
+}
+
+.fondo{
+	background-image: url("../assets/images/background.png");
+	background-repeat: repeat;
+}
+
+.fondo-texto {
+	background-color: white;
+	padding: 12px;
+	border-radius: 20px;
+}
+
+.palabras {
+  font-size: 30px;
+}
+.navegador{
+  background-color: #1D1F20;
+}
+
+a {
+	text-decoration: none;
+	color:#0CA39D;
+}
+a:hover {
+	color:#B40066;
+}
+
+li {
+	list-style: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: green;
+}
+
+img{
+  width: 40%;
+}
+
+/* estilos del tablero sopa de letras*/
 table{
 	border: solid 2px;
 	border-color: #050430;
