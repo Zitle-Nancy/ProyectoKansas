@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Days+One|Josefin+Sans');
 /*estilos generales*/
 body{
-  padding: 0 auto;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
   font-family: 'Josefin Sans', sans-serif;
   color:#1D1F20;
+	background-color: #1D1F20;
 }
 
 .fondo{
@@ -53,6 +54,19 @@ a:hover {
 	color:#B40066;
 }
 
+.btn {
+	background-color: #0CA39D;
+	color:white;
+	border:  2px solid #0CA39D;
+	border-radius: 7px;
+	padding: 10px 15px;
+	margin-bottom: 30px;
+}
+
+#contenedor-chido {
+	visibility:hidden;
+}
+
 li {
 	list-style: none;
 	font-family: 'Josefin Sans', sans-serif;
@@ -73,4 +87,12 @@ th{
 	width: 30px;
 	height: 30px;
 	border: solid 1px #050430;
+}
+
+footer {
+	background-color: #1D1F20;
+	width: 100%;
+	height: 100%;
+	color:white;
+	text-align: center;
 }
