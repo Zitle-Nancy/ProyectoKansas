@@ -1,30 +1,38 @@
-// function sombrear(celda){
-// 	celda.style.backgroundColor = "#ef3b9e";
-
-// }
 var letra = document.getElementsByClassName('letra');
-var mexico = document.getElementsByClassName('mexico');
+var popoc = document.getElementsByClassName('popoc');
+var palabraPopoc = document.getElementById('palabraPopoc');
+palabraPopoc.addEventListener('click',imagenPopoc);
+var cerrar = document.getElementById('cerrar');
+cerrar.addEventListener('click',close);
+//obtener la pizzara
+var imgPopoc = document.getElementById('img-popoc'); 
+//
 var arregloPalabras = [];
 var longitud = letra.length;
-
-// var th = document.getElementsByTagName('th');
-for(var j=0; j < mexico.length; j++){
-	// console.log(mexico[j].innerHTML);
-	arregloPalabras.push(mexico[j].innerHTML);
-
+var longitudPalabra = popoc.length;
+console.log(longitudPalabra);
+for(var j=0; j < popoc.length; j++){
+	arregloPalabras.push(popoc[j].innerHTML);
 }
-console.log(arregloPalabras);
-if (arregloPalabras.join("") == "MEXICO"){
-	alert("bien");
-}else{
-	alert("mal");
-}
-// console.log(th);
-
 for(var i=0; i< longitud; i++){
 	letra[i].addEventListener('click',pintar);
 }
-
+// for(var k=0; k < arregloPalabras.length; k++){
+// 	console.log(k);
+// 	//mostrar la imagen
+// 	if(longitudPalabra == 11){
+// 			imagenPopoc();
+// 	}
+// }
+//
 function pintar(){
-	this.style.backgroundColor = "red";
+	this.style.backgroundColor = "red";	
 }
+
+function imagenPopoc(){
+		imgPopoc.style.display = "block";	
+}
+function close(){
+	imgPopoc.style.display = "none";	
+}
+
