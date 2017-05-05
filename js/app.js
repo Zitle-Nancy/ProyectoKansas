@@ -20,24 +20,17 @@ cerrar.addEventListener('click',close);
 //obtener la pizzara
 var imgPopoc = document.getElementById('img-popoc'); 
 //
-var arregloPalabras = [];
+// var arregloPalabras = [];
 var longitud = letra.length;
-var longitudPalabra = popoc.length;
-console.log(longitudPalabra);
-for(var j=0; j < popoc.length; j++){
-	arregloPalabras.push(popoc[j].innerHTML);
-}
+// var longitudPalabra = popoc.length;
+// console.log(longitudPalabra);
+// for(var j=0; j < popoc.length; j++){
+// 	arregloPalabras.push(popoc[j].innerHTML);
+// }
 for(var i=0; i< longitud; i++){
 	letra[i].addEventListener('click',pintar);
 }
-// for(var k=0; k < arregloPalabras.length; k++){
-// 	console.log(k);
-// 	//mostrar la imagen
-// 	if(longitudPalabra == 11){
-// 			imagenPopoc();
-// 	}
-// }
-//
+
 function pintar(){
 	this.style.backgroundColor = "red";	
 }
