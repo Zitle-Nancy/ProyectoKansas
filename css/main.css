@@ -25,7 +25,27 @@ body{
 .navegador{
   background-color: #1D1F20;
 }
-
+/*nancy*/
+#img-popoc{
+	display: none;
+	position: fixed;
+	top: 0; 
+	width: 100%;
+	height: 100%;
+	background:rgba(125,80,159,.5);
+	text-align: center;
+}
+#imagen-modal{
+	width: 50%;
+	height: 50%;
+}
+#cerrar{
+	font-size: 60px;
+	color: red;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+/*fin nancy*/
 a {
 	text-decoration: none;
 	color:#0CA39D;
