@@ -46,8 +46,12 @@ mole.addEventListener("click",imagenMole);
 
 
 
-var cerrar = document.getElementById('cerrar');
-cerrar.addEventListener('click',close);
+var cerrar = document.getElementsByClassName('cerrar');
+var longCerrar = cerrar.length;
+for (var i=0; i<longCerrar; i++){
+	cerrar[i].addEventListener('click',close);
+}
+
 //obtener la pizzara
 var imgPopoc = document.getElementById('img-popoc');
 var imgMexico = document.getElementById('img-mexico');
@@ -129,20 +133,5 @@ function imagenMole (){
 
 
 function close(){
-	imgPopoc.style.display = "none";
-	imgMexico.style.display = "none";
-	imgCatri.style.display = "none";
-	imgTequila.style.display = "none";
-	imgNopal.style.display = "none";
-	imgMaiz.style.display = "none";
-	imgChile.style.display = "none";
-	imgQuetza.style.display = "none";
-	imgTacos.style.display = "none";
-	imgAlebri.style.display = "none";
-	imgPapan.style.display = "none";
-	imgAngel.style.display = "none";
-	imgTori.style.display = "none";
-	imgMolca.style.display = "none";
-	imgMole.style.display = "none";
-
+	this.style.display = "none";
 }
