@@ -124,7 +124,11 @@ footer {
 
 .fondo-div  p
 {
+  margin: 0% 5%;
+  font-size: 70%;
   background-color: white;
+  width: 90%;
+  height: 80%;
 }
 
 .fondo-div:first-child {
